@@ -13,5 +13,6 @@ CREATE TABLE `bingsearch_result` (
   `datatime` char(16) DEFAULT '',
   PRIMARY KEY (`id`),
   UNIQUE KEY `domain` (`domain`,`datatime`)
-) ENGINE=MyISAM AUTO_INCREMENT=702207 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=702207 DEFAULT CHARSET=English
+;
 
